@@ -1,0 +1,156 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #DFD3C3;
+}
+
+#top_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    padding: 10px 0px 10px 0px;
+    background-color: #EB5B00;
+    color: white;
+}
+
+#ngo_logo {
+    height: 7vh;
+}
+
+#ngo_name_div {
+    flex: 1;
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    width: 100vw;
+    background-color: white;
+    margin: 0px;
+}
+
+#nav_options {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    background-color: #EB5B00;
+    justify-content: center;
+}
+
+.nav_button {
+    background-color: #EB5B00;
+    border: none;
+    color: white;
+    height: 100%;
+    padding-right: 10px;
+    font-size: 2.3vh;
+    transition: background-color 0.3s ease;
+}
+
+.nav_button:hover {
+    background-color: #FFB200;
+}
+
+.white_circle {
+    height: 1.5vh;
+    padding-right: 10px;
+}
+
+#main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2E236C;
+    font-size: larger;
+}
+
+.content_div {
+    padding: 0px 50px 0px 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #405D72;
+}
+
+.content_hr {
+    background-color: #2E236C;
+    width: 100vw;
+}
+
+.spacer {
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    max-width: 60vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slider_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: #405D72;
+    justify-content: center;
+    color: white;
+}
+
+.slide1 {
+    min-width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slide1.active1 {
+    opacity: 1;
+}
+
+.slides1 {
+    display: flex;
+    transition: transform 0.5s ease;
+}
